@@ -1,0 +1,39 @@
+/*cartitem.css*/
+.cart-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: #c4ccd0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.item-info {
+  flex-grow: 1;
+  text-align: left;
+}
+
+.item-name {
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+.item-price {
+  font-size: 14px;
+  color: #888;
+}
+
+.delete-btn {
+  background-color: #ff5858;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.delete-btn:hover {
+  background-color: #ff3636;
+}
